@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ambronte Cheatsheet</title>
+    <link rel="shortcut icon" href="AN.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-81345625-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-81345625-2');
+</script>
+
+</head>
+<style>
+
+*{
+    box-sizing: border-box;
+
+}
+
+    body {
+        background: #f1f2f3;
+        height: 100%;
+        width: 100%;
+        /* position: relative; */
+    }
+
+    .wrap {
+        height: 100%;
+        width: 100%;
+        background: url(AN.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        opacity: 0.3;
+        position: absolute;
+        z-index: -1;
+border: 15px solid #ccc;
+        /* margin: 20px; */
+    }
+
+    h1.cs {
+        position: fixed;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+        letter-spacing: 2px;
+        font-size: 20px;
+        letter-spacing: 12px;
+        font-size: 12px;
+        color: #434343;
+        font-weight: 200;
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 500px) {
+        .wrap {
+            background-size: contain;
+        }
+    }
+    .logo
+    {
+        width: 50px;
+        z-index: 100;
+
+    }
+    .sitewrap
+    {
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <div class="wrap"></div>
+    <h1 class="cs">COMING SOON</h1>
+    <div class="sitewrap">
+            <!-- <img class="logo" src="AN.png" alt=""> -->
+
+    </div>
+
+</body>
+
+</html>
