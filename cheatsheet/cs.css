@@ -1,0 +1,18 @@
+
+
+*{
+    box-sizing: border-box;
+
+}
+
+body
+{
+    background: #f1f2f3;
+
+}
+.container
+{
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
