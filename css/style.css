@@ -54,7 +54,11 @@ border: 15px solid #ccc;
     {
         padding: 20px;
     }
-
+    .wrap
+    {
+        display: flex;
+        flex-direction: row;
+    }
     header.sidebar
     {
         width: 20%;
@@ -62,4 +66,5 @@ border: 15px solid #ccc;
     main.content
     {
 
+        flex-grow: 1;
     }
