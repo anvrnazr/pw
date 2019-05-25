@@ -54,3 +54,12 @@ border: 15px solid #ccc;
     {
         padding: 20px;
     }
+
+    header.sidebar
+    {
+        width: 20%;
+    }
+    main.content
+    {
+
+    }
