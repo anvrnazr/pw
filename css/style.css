@@ -140,7 +140,14 @@
     }
     .cc1
     {
-        width: 50%;
+        width: 750px;
         /* margin-top: 50px;; */
 
     }
+    .cc1 h2
+{
+            font-size: 22px;
+    letter-spacing: 0px;
+}
+
+    
