@@ -45,7 +45,7 @@ position: absolute;
 width: calc( 100% + 7px );
 height: 100%;
 content: "";
-background-size: contain;
+background-size: cover;
 left: -7px;
 background-position: center;
 top: 3px;
