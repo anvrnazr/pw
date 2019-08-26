@@ -31,3 +31,7 @@ body{
     border: 4px solid #222222;
     margin-bottom: 20px;
 }
+.strike
+{
+    background: url(strike.png);
+}
