@@ -42,7 +42,7 @@ body{
     background: url(../strike1.png);
 
 position: absolute;
-width: calc( 100% + 7px );
+width: calc( 100% + 14px );
 height: 100%;
 content: "";
 background-size: cover;
