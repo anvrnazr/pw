@@ -39,7 +39,7 @@ body{
 
 .strike:after
 {
-    background: url(../strike.png);
+    background: url(../strike1.png);
 
 position: absolute;
 width: 100%;
@@ -49,4 +49,5 @@ background-size: contain;
 left: 0;
 background-position: center;
 top: 3px;
+    background-repeat: no-repeat;
 }
