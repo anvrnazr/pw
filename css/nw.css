@@ -18,12 +18,13 @@ body{
 } */
 .container
 {
-    max-width: 750px;
+    max-width: 850px;
     margin: auto;
     display: block;
     margin-top: 150px;
     padding: 30px;
     background:url(../webbb.png);
+    padding-left:100px;
 
 }
 .logo
@@ -52,4 +53,11 @@ left: -3px;
 background-position: center;
 top: 3px;
     background-repeat: no-repeat;
+}
+.imab
+{
+ position: fixed;
+bottom: 0;
+width: 402px;
+left: 0;   
 }
