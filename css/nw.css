@@ -61,3 +61,20 @@ bottom: 0;
 width: 450px;
 left: 0;   
 }
+
+.stripewrap
+
+{
+    position: absolute;
+    height: 100vh;
+    widows: 100%;
+    top: 0;
+    display: flex;
+
+}
+.stripe
+{
+    width: 16.666;
+    height: 100%;
+    border-right: 1px solid #fff;
+}
