@@ -37,7 +37,28 @@ body{
     position: relative;
     /* padding: 10px; */
     margin-bottom: 80px;
+    background: #4441d6;
+    background: linear-gradient(90deg, #4441d6 0%, #182848 100%);
+    background-size: 800px;
+    transition: 1000ms;
+    /* background-position-x : -10%; */
+
 }
+.logo .con 
+{
+    padding: 10px;
+
+}
+
+.logo:hover
+{
+    background-size: 80px;
+    transition: 1000ms;
+    background-position: 
+
+}
+
+
 .txt 
 {
     background: #f1f2f3;
